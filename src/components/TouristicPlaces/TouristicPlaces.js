@@ -13,12 +13,12 @@ function TouristicPlaces() {
   return (
     <div name="views" className="touristicplaces">
       <div className="container">
-        <SelectsImg bgImg={romania1} text='Bora Bora' />
-        <SelectsImg bgImg={romania2} text='Emerald Bay' />
-        <SelectsImg bgImg={romania3} text='Maldives' />
-        <SelectsImg bgImg={romania4} text='Grenada' />
-        <SelectsImg bgImg={romania6} text='Barbados' />
-        <SelectsImg bgImg={romania7} text='Key West' />
+        <SelectsImg bgImg={romania1} text="Bora Bora" />
+        <SelectsImg bgImg={romania2} text="Emerald Bay" />
+        <SelectsImg bgImg={romania3} text="Maldives" />
+        <SelectsImg bgImg={romania4} text="Grenada" />
+        <SelectsImg bgImg={romania6} text="Barbados" />
+        <SelectsImg bgImg={romania7} text="Key West" />
       </div>
     </div>
   );

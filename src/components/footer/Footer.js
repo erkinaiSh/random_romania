@@ -1,26 +1,18 @@
-import React from 'react'
-import './FooterStyles.css'
-import { FaFacebook, FaInstagram, FaPinterest, FaTwitter, FaYoutube } from 'react-icons/fa'
-
+import React from "react";
+import logo from "../../assets/uni-logo.jpg";
+import "./FooterStyles.css";
 
 function Footer() {
-    return (
-        <div className='footer'>
-            <div className="container">
-                <div className="top">
-                    <h3>ROMANIA</h3>
-                    <div className="social">
-                        <FaFacebook className='icon' />
-                        <FaInstagram className='icon' />
-                        <FaTwitter className='icon' />
-                        <FaPinterest className='icon' />
-                        <FaYoutube className='icon' />
-                    </div>
-                </div>
-                
-            </div>
+  return (
+    <div className="footer">
+      <div className="container">
+        <div className="top">
+          <img src={logo} alt="/" />
+          <h3>ROMANIA</h3>
         </div>
-    )
+      </div>
+    </div>
+  );
 }
 
-export default Footer
+export default Footer;
